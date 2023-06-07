@@ -207,3 +207,9 @@ p{
       flex: 100%;
     }
   }
+
+  @media (max-width:600px) {
+    .video {
+      flex: 100%;
+    }
+  }
