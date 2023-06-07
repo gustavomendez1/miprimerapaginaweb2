@@ -16,15 +16,29 @@ h1 {
 
 .greeting{
 text-align: center;
+
 }
 
 main {
-  text-align: center;
+  min-height: 80vh;
 }
 
 footer {
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #796cf4;
+  min-height: 100px;
   text-align: center;
+  width: 100%;
+  padding: 0.5em 0;
+  margin-top: 30px;
 }
+
 .boton{
 text-align: center;
 }
@@ -42,6 +56,7 @@ header {
   max-width: 800px;
   margin: auto;
   padding: 20px;
+  text-align: center;
 }
 
 .row {
@@ -59,11 +74,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
 #logo {

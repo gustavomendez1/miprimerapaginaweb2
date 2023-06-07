@@ -1,12 +1,4 @@
-/*-function algunNombre(param1, param2) {
-    let a = param1 + "ama a" + param2;
-    return a;
-}
-
-algunNombre("Juan", "Carla")
-*/
-
-function showAlert() { alert('Hola, esta es una alerta desde JavaScript');}
+function showAlert() { alert('ESTO ES UNA ALERTA');}
 
 const form = document.getElementById('myForm');
 form.addEventListener('submit', function(event) {
